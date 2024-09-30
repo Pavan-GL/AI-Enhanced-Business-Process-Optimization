@@ -30,25 +30,25 @@ This project aims to develop an AI-driven platform that analyzes existing busine
 
 5. Visualization Dashboard: An optional dashboard to visualize key metrics and recommendations, aiding in the decision-making process.
 
-Getting Started
+### Getting Started
 Prerequisites
 Python 3.x
 Required libraries listed in requirements.txt
 
-Installation
+### Installation
 
 Clone the repository:
 git clone <repository-url>
 cd business-process-optimization
 
-Install the required libraries:
+### Install the required libraries:
 
 pip install -r requirements.txt
 
-Prepare your data:
+### Prepare your data:
 Ensure your dataset is in CSV format and follows the specified structure.
 
-Usage
+### Usage
 Send a POST request to /predict with the following JSON structure:
 
 {
