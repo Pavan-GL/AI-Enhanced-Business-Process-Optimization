@@ -82,7 +82,7 @@ class ModelTrainer:
             raise
 
 # Usage Example
-if __name__ == "__main__":
+"""if __name__ == "__main__":
     # Load your data first
     data_file_path = 'D:/AI-Enhanced Business Process Optimization/data/cleaned_business_process_data.csv'
     
@@ -92,4 +92,4 @@ if __name__ == "__main__":
         trained_model, error = model_trainer.train_model()
         print(f'Trained Model: {trained_model}\nMean Squared Error: {error}')
     except Exception as e:
-        print(f'An error occurred: {e}')
+        print(f'An error occurred: {e}')"""

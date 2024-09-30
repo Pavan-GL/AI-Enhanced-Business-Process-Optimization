@@ -55,7 +55,7 @@ class DataPreprocessor:
             raise
 
 # Usage Example
-if __name__ == "__main__":
+"""if __name__ == "__main__":
     file_path = 'D:/AI-Enhanced Business Process Optimization/data/business_process_data.csv'
     preprocessor = DataPreprocessor(file_path)
     
@@ -64,4 +64,4 @@ if __name__ == "__main__":
         print(processed_data.head())
         processed_data.to_csv('D:/AI-Enhanced Business Process Optimization/data/cleaned_business_process_data.csv')
     except Exception as e:
-        print(f'An error occurred: {e}')
+        print(f'An error occurred: {e}')"""

@@ -53,7 +53,9 @@ class RecommendationGenerator:
             raise
 
 # Usage Example
-if __name__ == "__main__":
+
+## Testing / Debug purpose
+"""if __name__ == "__main__":
     task_name = "Develop new feature"
     predicted_cost = 5000
     model_file_path = 'D:/AI-Enhanced Business Process Optimization/src/trained_model.pkl'  # Update with the correct path
@@ -63,4 +65,4 @@ if __name__ == "__main__":
         recommendation = recommender.generate_recommendation(task_name, predicted_cost)
         print(f'Recommendation: {recommendation}')
     except Exception as e:
-        print(f'An error occurred: {e}')
+        print(f'An error occurred: {e}')"""
